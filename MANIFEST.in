@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include education_fees *.css
+recursive-include education_fees *.csv
+recursive-include education_fees *.html
+recursive-include education_fees *.ico
+recursive-include education_fees *.js
+recursive-include education_fees *.json
+recursive-include education_fees *.md
+recursive-include education_fees *.png
+recursive-include education_fees *.py
+recursive-include education_fees *.svg
+recursive-include education_fees *.txt
+recursive-exclude education_fees *.pyc
